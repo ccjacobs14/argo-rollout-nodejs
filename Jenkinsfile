@@ -5,7 +5,7 @@ pipeline {
         timeout(time: 10, unit: 'MINUTES')
      }
     environment {
-    DOCKERHUB_CREDENTIALS = credentials('C14-AMPDP-DH')
+    DOCKERHUB_CREDENTIALS = credentials('C14-AMPDB-DH')
     APP_NAME = "ccjacobs14/blue-green-rollout"
     }
     stages { 
